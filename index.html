@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Undangan Pernikahan</h1>
+            <p>Dengan segala hormat, kami mengundang Anda untuk hadir di acara pernikahan kami yang akan datang.</p>
+        </div>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#acara" class="nav-link">Acara</a></li>
+            <li><a href="#jadwal" class="nav-link">Jadwal</a></li>
+            <li><a href="#galeri" class="nav-link">Galeri</a></li>
+            <li><a href="#cerita" class="nav-link">Cerita Kami</a></li>
+            <li><a href="#komentar" class="nav-link">Komentar</a></li>
+        </ul>
+    </nav>
+
+    <!-- Countdown Section -->
+    <section class="countdown">
+        <div class="container">
+            <h2>Hitung Mundur ke Hari Bahagia Kami!</h2>
+            <div class="timer" id="timer">00 hari 00 jam 00 menit 00 detik</div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section">
+        <div class="container">
+            <h2>Undangan Video Kami</h2>
+            <p>Silakan tonton video spesial kami yang mempersiapkan momen indah pernikahan ini.</p>
+            <div class="video-container">
+                <iframe class="video-frame" src="https://www.youtube.com/embed/_qqi7LFCOW0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Couple Section -->
+    <section class="couple-section">
+        <div class="container">
+            <h2>Nama Pengantin</h2>
+            <div class="couple-container">
+                <div class="groom">
+                    <h3>Irvan Cahaydi</h3>
+                    <img src="https://i.ibb.co/FmWvkTs/image-2024-12-17-T10-40-01-067-Z.png" alt="Pengantin Pria">
+                </div>
+                <div class="bride">
+                    <h3>Amelia Sihombing</h3>
+                    <img src="https://i.ibb.co/QCYHcFv/47706e7fb66a4378159d34de69c558d6.jpg" alt="Pengantin Wanita">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Acara Section -->
+    <section id="acara" class="acara-section">
+        <div class="container">
+            <h2>Acara Pernikahan</h2>
+            <p>Selamat datang di acara pernikahan kami yang penuh kebahagiaan. Jangan lewatkan momen spesial ini!</p>
+        </div>
+    </section>
+
+    <!-- Jadwal Section -->
+    <section id="jadwal" class="jadwal-section">
+        <div class="container">
+            <h2>Jadwal Acara</h2>
+            <ul>
+                <li>10:00 WIB - Pembukaan</li>
+                <li>10:30 WIB - Ijab Kabul</li>
+                <li>11:30 WIB - Makan Bersama</li>
+                <li>13:00 WIB - Foto Bersama</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="galeri" class="gallery-section">
+        <div class="container">
+            <h2>Galeri Foto</h2>
+            <div class="gallery">
+                <a href="https://i.ibb.co/FmWvkTs/image-2024-12-17-T10-40-01-067-Z.png" data-lightbox="gallery">
+                    <img src="https://i.ibb.co/FmWvkTs/image-2024-12-17-T10-40-01-067-Z.png" alt="Pengantin Pria">
+                </a>
+                <a href="https://i.ibb.co/QCYHcFv/47706e7fb66a4378159d34de69c558d6.jpg" data-lightbox="gallery">
+                    <img src="https://i.ibb.co/QCYHcFv/47706e7fb66a4378159d34de69c558d6.jpg" alt="Pengantin Wanita">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cerita Section -->
+    <section id="cerita" class="cerita-section">
+        <div class="container">
+            <h2>Cerita Kami</h2>
+            <p>Ini adalah cerita cinta kami yang dimulai sejak pertama kali bertemu...</p>
+        </div>
+    </section>
+
+    <!-- Comments Section -->
+    <section id="komentar" class="komentar-section">
+        <div class="container">
+            <h2>Komentar Pengunjung</h2>
+            <div class="comments">
+                <form id="comment-form">
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" required>
+                    <label for="comment">Komentar:</label>
+                    <textarea id="comment" required></textarea>
+                    <button type="submit">Kirim</button>
+                </form>
+                <div id="comments-list"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Pernikahan Kami. Semua Hak Dilindungi.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
